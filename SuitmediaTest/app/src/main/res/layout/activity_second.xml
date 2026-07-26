@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".SecondActivity">
+
+    <!-- Lable Static Welcome -->
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Lable Dinamic Name dari Screen 1 -->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="User Name"
+        android:textSize="18sp" />
+
+    <!-- Lable Dinamic Selected User Name dari Screen 3 -->
+    <TextView
+        android:id="@+id/tvSelectedUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Selected User Name"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <!-- Button Choose a User -->
+    <Button
+        android:id="@+id/btnChooseUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Choose a User" />
+
+</LinearLayout>
